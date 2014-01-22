@@ -27,7 +27,7 @@ public class Drivetrain extends Subsystem {
         }
         
         public void set(double speed){
-            super.set(speed);
+            super.set(speed*-1);
         }
     }
     
